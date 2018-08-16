@@ -51,7 +51,7 @@ main{
   margin-top: 2em;
 }
 
-.column1 img:hover, .column2 > article > a > img:hover {
+.column1 img:hover, .column2 img:hover {
   opacity: 0.6;
 }
 main article img {
