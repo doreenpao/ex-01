@@ -144,3 +144,8 @@ padding-top:100px;
 .footer p:nth-child(3){
   color: #a07108;
 }
+
+.project_spacing {
+  padding-top: 40px;
+  margin: 0 auto;
+}
