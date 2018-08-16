@@ -1,0 +1,146 @@
+{
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  font-size: 10px;
+}
+
+body{
+  background: rgb(255, 255, 255,);
+  color: rgb(0, 0, 0,);
+  font-size: 2.4rem;
+  font-family: Gotham, sans-serif;
+  font-weight: normal;
+  line-height: 1;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(assets/fonts/Gotham-Book.woff);
+}
+
+/* typography */
+h1, h2, h3, p, a{
+  font-size: 2.4rem;
+  font-weight: normal;
+  color: black;
+}
+h1 a {
+  color: black
+}
+a {
+  text-decoration: none;
+}
+header{
+  padding: 0.25em;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  width: 100px;
+  background: white;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.25em;
+  margin-top: 2em;
+}
+img:hover {
+  opacity: 0.6;
+}
+main article img {
+
+  mix-blend-mode:multiply;
+  padding: 5px;
+  width: 745px;
+}
+main article:hover img,
+main article:hover figcaption {
+  filter: grayscale(0);
+  mix-blend-mode: initial;
+  color:red;
+}
+/* .message {
+  position: fixed;
+  bottom: 0.25em; right: 0.25em;
+  background: red;
+  padding: 1em;
+  box-shadow: 5px 5px 10px red;
+} */
+
+main article:first-of-type {
+  width: 100%;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+h1, nav {
+  flex: 1;
+}
+figcaption {
+  padding: 0.25em 0;}
+
+  .brand {
+    float: left;
+
+  }
+
+  .submenu {
+    position: fixed;
+    right: 4%;
+    display: inline;
+    float: right;
+    padding-top: 10px;
+  }
+
+  .submenu > nav > a {
+    font-size: 0.6em;
+  }
+
+  .submenu > nav > a:first-child {
+    padding-right: 50px;
+  }
+
+.container {
+  width: 100%;
+text-align: center;
+padding: 0 20px;
+}
+
+.column1 {
+  width: 50%;
+float: left;
+}
+
+.column2 {
+  width: 50%;
+float:right;
+}
+
+figure {
+  padding: 0;
+}
+
+.footer{
+width: 100%;
+padding-top:100px;
+}
+
+.footer div{
+  text-align: center;
+  font-size: 0.8em;
+  padding-bottom: 10px;
+}
+.footer p{
+  font-size: 0.5em;
+  text-align: center;
+}
+.footer p:nth-child(3){
+  color: #a07108;
+}
