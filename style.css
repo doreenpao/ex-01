@@ -50,7 +50,8 @@ main{
   padding: 0.25em;
   margin-top: 2em;
 }
-img:hover {
+
+.column1 img:hover, .column2 > article > a > img:hover {
   opacity: 0.6;
 }
 main article img {
