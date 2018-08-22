@@ -57,8 +57,7 @@ main{
 main article img {
 
   mix-blend-mode:multiply;
-  padding: 5px;
-  width: 745px;
+  padding: 5px 5px 5px 10px;
 }
 main article:hover img,
 main article:hover figcaption {
