@@ -117,11 +117,13 @@ padding: 0 20px;
 .column1 {
   width: 50%;
 float: left;
+overflow: hidden;
 }
 
 .column2 {
   width: 50%;
 float:right;
+overflow: hidden;
 }
 
 figure {
